@@ -4,12 +4,11 @@
 package handler
 
 import (
-	"WMSS/product/api/internal/types"
 	"net/http"
 
-	"WMSS/product/api/internal/logic"
-	"WMSS/product/api/internal/svc"
-
+	"github.com/Nozomi9967/wmss-product-api/internal/logic"
+	"github.com/Nozomi9967/wmss-product-api/internal/svc"
+	"github.com/Nozomi9967/wmss-product-api/internal/types"
 	"github.com/zeromicro/go-zero/rest/httpx"
 )
 

@@ -4,9 +4,8 @@
 package svc
 
 import (
-	"WMSS/product/api/internal/config"
-	"WMSS/product/api/internal/model"
-
+	"github.com/Nozomi9967/wmss-product-api/internal/config"
+	"github.com/Nozomi9967/wmss-product-api/internal/model"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
 

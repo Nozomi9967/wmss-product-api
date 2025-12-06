@@ -7,10 +7,9 @@ import (
 	"flag"
 	"fmt"
 
-	"WMSS/product/api/internal/config"
-	"WMSS/product/api/internal/handler"
-	"WMSS/product/api/internal/svc"
-
+	"github.com/Nozomi9967/wmss-product-api/internal/config"
+	"github.com/Nozomi9967/wmss-product-api/internal/handler"
+	"github.com/Nozomi9967/wmss-product-api/internal/svc"
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"
 )

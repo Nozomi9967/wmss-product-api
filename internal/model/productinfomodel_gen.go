@@ -5,12 +5,12 @@
 package model
 
 import (
-	"WMSS/product/api/internal/types"
 	"context"
 	"database/sql"
 	"fmt"
 	"strings"
 
+	"github.com/Nozomi9967/wmss-product-api/internal/types"
 	"github.com/zeromicro/go-zero/core/stores/builder"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 	"github.com/zeromicro/go-zero/core/stringx"

@@ -4,12 +4,11 @@
 package logic
 
 import (
-	"WMSS/product/api/internal/model"
 	"context"
 
-	"WMSS/product/api/internal/svc"
-	"WMSS/product/api/internal/types"
-
+	"github.com/Nozomi9967/wmss-product-api/internal/model"
+	"github.com/Nozomi9967/wmss-product-api/internal/svc"
+	"github.com/Nozomi9967/wmss-product-api/internal/types"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 

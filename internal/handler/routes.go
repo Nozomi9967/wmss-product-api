@@ -6,8 +6,7 @@ package handler
 import (
 	"net/http"
 
-	"WMSS/product/api/internal/svc"
-
+	"github.com/Nozomi9967/wmss-product-api/internal/svc"
 	"github.com/zeromicro/go-zero/rest"
 )
 

@@ -1,14 +1,14 @@
 package logic
 
 import (
-	"WMSS/product/api/internal/model"
-	"WMSS/product/api/internal/svc"
-	"WMSS/product/api/internal/types"
 	"context"
 	"database/sql"
 	"strings"
 	"time"
 
+	"github.com/Nozomi9967/wmss-product-api/internal/model"
+	"github.com/Nozomi9967/wmss-product-api/internal/svc"
+	"github.com/Nozomi9967/wmss-product-api/internal/types"
 	"github.com/google/uuid"
 	"github.com/zeromicro/go-zero/core/logx"
 )

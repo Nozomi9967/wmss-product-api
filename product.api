@@ -27,7 +27,7 @@ type (
 	// 创建产品请求
 	CreateProductReq {
 		ProductName       string  `json:"product_name" validate:"required,min=4,max=128"` // 产品名称
-		ProductType       string  `json:"product_type" validate:"required,min=4,max=32"` // 产品类型，如“股票型”“债券型”“混合型”“货币型”
+		ProductType       string  `json:"product_type" validate:"required,min=3,max=32"` // 产品类型，如“股票型”“债券型”“混合型”“货币型”
 		ProductSubType    string  `json:"product_sub_type" validate:"omitempty,min=4,max=32"` // 产品子类型，可选
 		RiskLevel         string  `json:"risk_level" validate:"required,min=1,max=10"` // 风险等级，如“R1”“R2”...
 		ProductStatus     string  `json:"product_status" validate:"required,min=2,max=20"` // 产品状态，如“正常”“发行中”
